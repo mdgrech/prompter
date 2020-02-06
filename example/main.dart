@@ -2,11 +2,6 @@ import 'package:prompter_md5/src/terminal.dart';
 import 'package:prompter_md5/src/option.dart';
 
 void main() {
-  
-  
-  
-  
-  
   var terminal = new Terminal();
 
   var options = [

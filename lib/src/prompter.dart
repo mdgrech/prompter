@@ -1,3 +1,1 @@
-class Prompter {
-  
-}
+class Prompter {}
