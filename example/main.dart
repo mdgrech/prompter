@@ -1,15 +1,11 @@
-import 'package:prompter_md5/src/terminal.dart';
-import 'package:prompter_md5/src/option.dart';
+import 'package:prompter_md5/prompter_md5.dart';
 
 void main() {
-  var terminal = new Terminal();
-
-  var options = [
+  final options = <Option>[
     new Option('I want red', '#f00'),
-    new Option('I want blue', '#00f')
+    new Option('I want blue', '#00f'),
   ];
 
-  terminal.printOptions(options);
-  var response = terminal.collectInput();
-  print(response);
+  final prompter = new Prompter();
+  print(prompter.askBinary('Do you like Dart?'));
 }
