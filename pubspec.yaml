@@ -1,3 +1,7 @@
 name: prompter_md5
 version: 0.0.1
 description: Library to cretae CLI wizards.
+homepage: https://wwww.google.com
+
+environment: 
+  sdk: '<3.0.0'
